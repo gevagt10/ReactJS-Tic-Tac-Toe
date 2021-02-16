@@ -1,0 +1,19 @@
+
+td {
+    border: 1px solid #ffffff;
+    width: 100px;
+    height: 100px;
+}
+td:hover {
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.flicker {
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}

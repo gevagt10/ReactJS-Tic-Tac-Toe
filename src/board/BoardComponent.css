@@ -1,0 +1,33 @@
+
+table {
+    border: 1px solid #ffffff;
+    min-height: 400px;
+    min-width: 400px;
+    margin-bottom: 3px;
+}
+.game-finish {
+    border: 3px solid #0130ff;
+    background-color: #282c34;
+}
+
+
+.board-header {
+    margin-bottom: 15px;
+    color: gray;
+}
+.active-player {
+    color:white;
+    margin-left: 0.8rem;
+}
+.winner {
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
